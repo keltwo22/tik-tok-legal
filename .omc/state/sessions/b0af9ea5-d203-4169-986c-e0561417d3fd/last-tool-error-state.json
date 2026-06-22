@@ -1,7 +1,0 @@
-{
-  "tool_name": "PowerShell",
-  "tool_input_preview": "{\"command\":\"choco install gh -y --no-progress 2>&1 | Select-Object -Last 25\",\"timeout\":300000,\"description\":\"Install GitHub CLI via Chocolatey\"}",
-  "error": "Exit code 1\nThis is try 2/3. Retrying after 400 milliseconds.\r\n Error converted to warning:\r\n 'C:\\ProgramData\\chocolatey\\lib-bad' 경로에 대한 액세스가 거부되었습니다.\r\nMaximum tries of 3 reached. Throwing error.\r\nCannot create directory \"C:\\ProgramData\\chocolatey\\lib-bad\". Error was:\r\nSystem.UnauthorizedAccessException: 'C:\\ProgramData\\chocolatey\\lib-bad' 경로에 대한 액세스가 거부되었습니다.\r\n   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   위치: System.IO.Directory.InternalCreateDirectory(String fu...",
-  "timestamp": "2026-06-22T09:38:41.985Z",
-  "retry_count": 1
-}
